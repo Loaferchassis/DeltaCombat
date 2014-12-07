@@ -50,4 +50,9 @@ public class Hero {
 		System.out.println("Напиши название класса полностью");
 	}
 
+	public void atack(Hero person2) {
+		person2.hp -= this.ad;
+		System.out.println(person2.name+" HP "+ person2.hp);
+	}
+
 }
